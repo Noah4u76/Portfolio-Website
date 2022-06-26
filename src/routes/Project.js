@@ -12,7 +12,7 @@ const Project = () => {
       <HeroImg2
         heading="PROJECTS."
         text="Some of 
-      my most recent works"
+      my most recent works."
       />
       <Work />
       <Footer />
