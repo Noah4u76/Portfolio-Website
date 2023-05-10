@@ -11,9 +11,12 @@ const AboutContent = () => {
       <div className="left">
         <h1>Who am I?</h1>
         <p>
-          I am a 20 year old self taught coder with the goal to create software
-          and develop new ideas. I have always had intrest with the tech field
-          and have been involving myself every way I can.
+          Hello! My name is Noah Sanderson. A 21 year-old aspiring software
+          engineer who is currently pursing a bachelors degree in computer
+          science. I have experience with C++, Javascript, HTML, CSS, React.js.
+          Some hobbies of mine are playing video games, building PC's, and
+          working on cars. My goals is to finish my computer science degree and
+          build valuable skills to pursue a career as a software engineer.
         </p>
         <Link to="/contact">
           <button className="btn">Contact</button>

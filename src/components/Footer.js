@@ -50,18 +50,24 @@ const Footer = () => {
             explore my portfolio as well as my socials. Thank you!
           </p>
           <div className="social">
-            <FaGithub
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaLinkedin
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaInstagram
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
+            <a href="https://github.com/Noah4u76">
+              <FaGithub
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/noah-sanderson-742168253/">
+              <FaLinkedin
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
+            <a href="https://www.instagram.com/akanoahh/">
+              <FaInstagram
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
           </div>
         </div>
       </div>
