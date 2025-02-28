@@ -1,0 +1,57 @@
+.project-card {
+  background: #1a1919;
+  padding: 1.5rem 1.2rem;
+  border-radius: 10px; /* Soft rounded corners for better aesthetics */
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 5px; /* Slight rounding for a smoother look */
+}
+
+.project-title {
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 1.5rem; /* Increase title size */
+  font-weight: bold;
+}
+
+.pro-details {
+  padding-bottom: 1.5rem;
+  font-size: 1.2rem; /* Slightly larger text */
+  line-height: 1.6; /* More space between lines */
+  text-align: center;
+  max-width: 90%;
+  margin: auto; /* Keeps text width manageable */
+  color: #e0e0e0; /* Lighter gray for better contrast */
+}
+
+.pro-btns {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.pro-btns .btn {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem; /* Slightly larger buttons */
+  font-weight: bold;
+  background: #ffd700; /* Yellow for visibility */
+  color: #000; /* Black text for contrast */
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.pro-btns .btn:hover {
+  background: #ffcc00; /* Slightly brighter yellow on hover */
+}
+
+@media screen and (max-width: 740px) {
+  .project-container {
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+}
+

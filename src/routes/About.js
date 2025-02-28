@@ -11,8 +11,7 @@ const About = () => {
       <Navbar />
       <HeroImg2
         heading="ABOUT."
-        text=" I am very determined and passionate about creating software as well as I am 
-      mostly self taught pursuing a Computer Science degree."
+        text=" I am currently pursing a bachelors degree in Computer Science with a concentration in Cybersecurity. "
       />
       <AboutContent />
       <Footer />

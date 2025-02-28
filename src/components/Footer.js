@@ -19,8 +19,7 @@ const Footer = () => {
           <div className="location">
             <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
             <div>
-              <p>Apple Valley</p>
-              <p>California</p>
+              <p>Fullerton, California</p>
             </div>
           </div>
           <div className="phone">
@@ -58,12 +57,6 @@ const Footer = () => {
             </a>
             <a href="https://www.linkedin.com/in/noah-sanderson-742168253/">
               <FaLinkedin
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
-            </a>
-            <a href="https://www.instagram.com/akanoahh/">
-              <FaInstagram
                 size={30}
                 style={{ color: "#fff", marginRight: "1rem" }}
               />
